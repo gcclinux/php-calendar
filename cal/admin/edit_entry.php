@@ -105,11 +105,11 @@ if (isset($_POST['deletedata'])){
         if ($size != 0){
           $real_file = '';
           if(file_exists('../files/'.$filename)) {
-              $real_file = "../files/".$uniqueid."_".$filename;
+              $real_file = "files/".$uniqueid."_".$filename;
               move_uploaded_file($_FILES['file']['tmp_name'][$i],'../files/'.$uniqueid.'_'.$filename);
               $RUN->new_attachment($uniqueid,$real_file);
           } else {
-              $real_file = "../files/".$filename;
+              $real_file = "files/".$filename;
               move_uploaded_file($_FILES['file']['tmp_name'][$i],'../files/'.$filename);
               $RUN->new_attachment($uniqueid,$real_file);
           }
