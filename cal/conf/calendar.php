@@ -124,7 +124,7 @@ class Calendar {
         $month = date("m");
         $result = '';
 
-        $thisMonth = $this->currentMonth==12?1:intval($this->currentMonth);
+        $thisMonth = $this->currentMonth==13?1:intval($this->currentMonth);
         $thisYear = $this->currentMonth==12?intval($this->currentYear):$this->currentYear;
 
         if($this->currentDay==0){
