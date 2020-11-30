@@ -149,13 +149,17 @@
       <select autocomplete=\"off\" name=\"category\" id=\"category\">
           <option value=\"general\">General</option>
           <option value=\"anniverssary\">Anniverssary</option>
+          <option value=\"appointment\">Appointment</option>
           <option value=\"birthday\">Birthday</option>
           <option value=\"cancel\">Cancellation</option>
           <option value=\"insurance\">Insurance</option>
           <option value=\"renewal\">Renewall</option>
           <option value=\"school\">School</option>
           <option value=\"service\">Service</option>
+          <option value=\"meeting\">Meetings</option>
           <option value=\"wedding\">Wedding</option>
+          <option value=\"work\">Work</option>
+          <option value=\"zoom\">Zoom</option>
       </select>
       <br><br>
       <label for=\"repeat\"><b>Repeat</b></label>

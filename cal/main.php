@@ -1,4 +1,8 @@
 <?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
 session_start();
   if (! isset($_SESSION['valid'])){
     header("Location: ./index.php");
@@ -52,7 +56,7 @@ session_start();
 <div id="wrapper">
 
   <?php
-    include (__DIR__ . '/main/newEvent.php');
+    include (__DIR__ . '/main/newEvent.html');
     include (__DIR__ . '/main/editEvent.php');
   ?>
 
