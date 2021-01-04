@@ -53,7 +53,7 @@ session_start();
 <div id="wrapper">
 
   <?php
-    include (__DIR__ . '/main/newEvent.php');
+    include (__DIR__ . '/main/newEvent.html');
     include (__DIR__ . '/main/editEvent.php');
   ?>
 
